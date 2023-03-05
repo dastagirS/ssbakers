@@ -28,6 +28,10 @@ export default function RootLayout({
             />
           </div>
           <div className="nav-links">
+            <img
+              src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1678017007/ssbakers/cupcake_uj46ha.png"
+              alt="cupcake"
+            />
             <li>Our Collection</li>
             <li>About Us</li>
             <li>Contact Us</li>
@@ -36,6 +40,7 @@ export default function RootLayout({
           </div>
         </div>
         {children}
+        <div className="footer-main"></div>
       </body>
     </html>
   );

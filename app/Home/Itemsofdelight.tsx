@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../globals.css";
 
 export default function Itemsofdelight() {
-  const [items, setItems] = useState("cakes");
+  const [items, setItems] = useState("Cakes");
   console.log(items);
   return (
     <section className="Itemsofdelight-main">

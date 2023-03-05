@@ -136,6 +136,12 @@ select {
   transition: all 0.5s ease-in;
 }
 
+.nav-links > img{
+  position: absolute;
+  width: 300px;
+  right: -20%;
+}
+
 .nav-links li {
   padding: 0px 0px 0px 20px;
   font-weight: 600;
