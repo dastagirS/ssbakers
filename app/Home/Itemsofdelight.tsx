@@ -4,7 +4,6 @@ import "../globals.css";
 
 export default function Itemsofdelight() {
   const [items, setItems] = useState("Cakes");
-  console.log(items);
   return (
     <section className="Itemsofdelight-main">
       <h4 className="Itemsofdelight-title">Items Of Delight</h4>
