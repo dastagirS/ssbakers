@@ -12,7 +12,31 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="navbar✌️">
+          <input type="checkbox" id="dropdown" />
+          <label htmlFor="dropdown" className="nav-ham">
+            <img
+              src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1677520702/ssbakers/ss_humburgir_hdts6u.png"
+              alt="ssbakers hamburger"
+            />
+          </label>
+          <div className="nav-logo">
+            <img
+              src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1677519905/ssbakers/ss_logo_ohe3qb.png"
+              alt="ssbakers logo"
+            />
+          </div>
+          <div className="nav-links">
+            <li>Our Collection</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Customize Cakes</li>
+            <button>Franchise</button>
+          </div>
+        </div>
+        {children}
+      </body>
     </html>
-  )
+  );
 }
