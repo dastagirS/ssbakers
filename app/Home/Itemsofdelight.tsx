@@ -26,7 +26,7 @@ export default function Itemsofdelight() {
         />
       </div>
       <div className="Itemsofdelight-selected">
-        {items === "cakes" && (
+        {items === "Cakes" && (
           <div className="Itemsofdelight-cakes">
             <div className="Itemsofdelight-card">
               <img
