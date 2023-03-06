@@ -140,6 +140,7 @@ select {
   position: absolute;
   width: 300px;
   right: -22%;
+  filter: opacity(50%);
 }
 
 .nav-links li {
