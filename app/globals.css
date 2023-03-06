@@ -405,7 +405,7 @@ select {
   align-items: center;
   justify-content: space-evenly;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 5px;
   background: white;
 }
 .bestseller-cards > img {
@@ -421,7 +421,7 @@ select {
 .bestseller-cards > button {
   border: 2px solid var(--accent-dark);
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 5px 5px;
   font-weight: 500;
   color: black;
@@ -468,7 +468,6 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--accent);
   gap: 5px;
   padding: 10px;
   border-radius: 5px;
@@ -487,7 +486,7 @@ select {
 
 .Itemsofdelight-card > button{
   color: var(--accent-dark);
-  border: none;
+  border: 1px solid var(--accent-dark);
   border-radius: 5px;
   background: white;
   font-size: .8rem;
