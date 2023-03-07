@@ -5,10 +5,7 @@ export default function Landingpage() {
     <section className="landing-title">
       <div className="landing-art">
         <div className="big-circle">
-          <img
-            src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1678207182/ssbakers/happy-birthday-3925931_xyfnft.jpg"
-            alt=""
-          />
+          <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1678207182/ssbakers/happy-birthday-3925931_xyfnft.jpg" alt="" />
         </div>
         <div className="small-circle">
           <img
