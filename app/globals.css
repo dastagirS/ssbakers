@@ -45,6 +45,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  position: relative;
 }
 
 /* A elements that don't have a class get default styles */
@@ -152,7 +153,7 @@ select {
   cursor: pointer;
 }
 
-.nav-links button {
+.nav-btn {
   margin: 0px 0px 0px 20px;
   padding: 10px 30px;
   color: white;
@@ -162,6 +163,7 @@ select {
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* checked */
@@ -202,7 +204,7 @@ select {
     padding: 0px 0px 0px 0px;
     font-size: .8rem;
   }
-  .nav-links button{
+  .nav-btn{
     margin: 0px;
     padding: 10px 20px;
     font-size: .8rem;
@@ -216,7 +218,10 @@ select {
   justify-items: center;
   background: var(--accent);
   position: relative;
+  width: 100%;
   height: 300px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-logo {
@@ -554,4 +559,87 @@ select {
   background: white;
   font-size: 0.8rem;
   padding: 5px 8px;
+}
+
+
+/* franchise */
+
+.franchise-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.franchise-about1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: var(--accent);
+  position: relative;
+  color: var(--accent-dark);
+  height: 500px;
+}
+
+.franchise-about1-art{
+  width: 250px;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  filter: opacity(30%);
+}
+
+.franchise-about1-title{
+  font-size: 1.2rem;
+}
+
+.franchise-about1-para{
+  padding: 20px;
+}
+
+.franchise-about2{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--accent-dark);
+}
+
+.franchise-about2-para{
+  padding: 20px;
+}
+
+.franchise-contactform{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--accent);
+  color: var(--accent-dark);
+  margin-bottom: 20rem;
+}
+.franchise-contactform-title{
+  font-size: 1.3rem;
+}
+.franchise-contactform form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.franchise-contactform > form > input{
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid var(--accent-dark);
+}
+.franchise-contactform > form > button{
+  background: var(--accent-dark);
+  border: none;
+  border-radius: 5px;
+  color: var(--accent);
+  padding: 5px 30px;
 }
