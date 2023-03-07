@@ -4,7 +4,12 @@ export default function Landingpage() {
   return (
     <section className="landing-title">
       <div className="landing-art">
-        <div className="big-circle"></div>
+        <div className="big-circle">
+          <img
+            src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1678207182/ssbakers/happy-birthday-3925931_xyfnft.jpg"
+            alt=""
+          />
+        </div>
         <div className="small-circle">
           <img
             src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1677693606/ssbakers/Attractive_girl_eating_a_cake_and_licking_her_finger_v0hi5f.png"
