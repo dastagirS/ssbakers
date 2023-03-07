@@ -47,7 +47,7 @@ export default function RootLayout({
           </div>
         </div>
         {children}
-        <div className="footer-main">
+        <footer className="footer-main">
           <div className="footer-logo">
             <img
               src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1677519905/ssbakers/ss_logo_ohe3qb.png"
@@ -70,7 +70,7 @@ export default function RootLayout({
               <a href="">Franchise</a>
             </span>
           </div>
-        </div>
+        </footer>
       </body>
     </html>
   );
