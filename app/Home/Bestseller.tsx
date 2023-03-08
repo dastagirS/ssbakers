@@ -3,7 +3,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 export default function Bestseller() {
-  AOS.init({ duration: 600 })
+  AOS.init()
   return (
     <section className="bestseller-main">
       <h4 className="bestseller-title">Best Sellers</h4>
