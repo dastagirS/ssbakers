@@ -1,5 +1,4 @@
 import './globals.css'
-
 import Bestseller from './Home/Bestseller'
 import Landingpage from './Home/Landingpage'
 import Occasion from './Home/Occasion'
